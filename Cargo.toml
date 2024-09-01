@@ -3,6 +3,7 @@ name = "pennywise"
 version = "0.1.0"
 edition = "2021"
 build = "build.rs"
+description = "desktop app to divide income"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -11,3 +12,7 @@ slint = "1.6"
 
 [build-dependencies]
 slint-build = "1.6"
+
+[package.metadata.bundle]
+name = "pennywise"
+identifier = "io.github.4rjunc.pennywise"
